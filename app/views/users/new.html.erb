@@ -1,0 +1,16 @@
+<%= form_tag '/signup'%>
+<div class="field_with_error">
+  <%= label_field :name %>
+  <%= text_field_tag :name %>
+</div>
+<div class="field_with_error">
+  <%= label_field :password %>
+  <%= text_field_tag :password %>
+</div>
+<div class="field_with_error">
+  <%= label_field :password_comfirmation %>
+  <%= text_field_tag :password_comfirmation %>
+</div>
+<div class="submit">
+  <%= submit_tag "Submit" %>
+</div>

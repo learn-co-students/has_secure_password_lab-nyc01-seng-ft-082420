@@ -1,0 +1,12 @@
+<%= form_tag '/login'%>
+<div class="field_with_error">
+  <%= label_field :name %>
+  <%= text_field_tag :name %>
+</div>
+<div class="field_with_error">
+  <%= label_field :password %>
+  <%= text_field_tag :password %>
+</div>
+<div class="submit">
+  <%= submit_tag "Login" %>
+</div>
